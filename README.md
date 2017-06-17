@@ -25,7 +25,7 @@ Steps
     
     `cp -r <path-to-this-cloned-repo-dir>/cavity-tutorial ~/`
 
-   [![Step 1](docs/images/step1.png)]( https://vimeo.com/221992666 "Step1 - Click to Watch!")
+   [![Step 1](doc/images/step1.png)]( https://vimeo.com/221992666 "Step1 - Click to Watch!")
 
 2. Run the docker container while sharing the copied `cavity-tutorial` with a
    bind volume and the X11 host to drive the Blender GUI from within the
@@ -38,7 +38,7 @@ Steps
     blender
    ```
 
-   [![Step 2](docs/images/step2.png)]( https://vimeo.com/221992666 "Step2 - Click to Watch!")
+   [![Step 2](doc/images/step2.png)]( https://vimeo.com/221992666 "Step2 - Click to Watch!")
 
 3. Now you can generate the blockMeshDict, start OpenFoam, and run the solver
    from within blender. 
@@ -47,7 +47,7 @@ Steps
 
    click the `Start Open Foam` and `Solve Open Foam` buttons in Blender to
    start openfoam and solve the case respectively.
-   [![Step 3](docs/images/step3.png)]( https://vimeo.com/221992666 "Step3 - Click to Watch!")
+   [![Step 3](doc/images/step3.png)]( https://vimeo.com/221992666 "Step3 - Click to Watch!")
 
 4. You can now post process with `paraFoam` as such from the shared case
    directory on the host terminal, outside the container. This assumes you have
@@ -59,4 +59,4 @@ Steps
    ```
    You can watch the instruction video for this step.
 
-   [![Step 4](docs/images/step4.png)]( https://vimeo.com/221992666 "Step4 - Click to Watch!")
+   [![Step 4](doc/images/step4.png)]( https://vimeo.com/221992666 "Step4 - Click to Watch!")
